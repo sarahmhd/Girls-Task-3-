@@ -1,0 +1,41 @@
+
+// Colors
+
+$main-color: #37a0f4
+$second-color: #ECECEC
+$orange-color: #F44036
+$green-color: #009688
+$hover-color: #fafafa
+$star-color: #ffc107
+$footer-color: #b9b9b9
+
+// mixins
+@mixin borderTopBlue()
+    position: absolute
+    content: ""
+    top: 0
+    left: 0
+    width: 0%
+    height: 4px
+    background: $main-color
+    transition: 700ms
+
+@mixin backgroundBefore()
+    position: absolute
+    content: ""
+    top: 0
+    left: 0
+    width: 0
+    height: 100%
+    background: $hover-color
+    transition: 700ms
+
+@mixin backgroundAfter()
+    position: absolute
+    content: ""
+    bottom: 0
+    right: 0
+    width: 0
+    height: 100%
+    background: $hover-color
+    transition: 700ms

@@ -1,0 +1,97 @@
+
+/* For large devices */
+// @media only screen and (min-width: 1001px)
+
+/* For medium devices */
+// @media only screen and (min-width: 769px) and (max-width: 1199px)
+
+/* For medium and small devices */
+@media only screen and (max-width: 991px)
+    .dots
+        display: none
+    header
+        .drop-down
+            overflow-y: scroll !important
+        li.drop-list
+            .img
+                display: none
+    main
+        .welcome
+            .img
+                display: none
+            .info
+                text-align: center
+                p
+                    width: 80%
+                    margin: 0 auto
+        .skills
+            .img
+                display: none
+        .how-work
+            .col-content
+                margin-top: 30px
+            .box
+                flex-direction: column !important
+                text-align: center
+                .img
+                    width: 80px !important
+                    margin-bottom: 20px
+                .info
+                    margin: 0 !important
+        .pricing
+            .col-parent
+                margin-bottom: 30px
+                &:nth-of-type(2)
+                    transform: translateY(25px) !important
+                    margin-right: 0 !important
+        .videos
+            .row
+                flex-direction: column-reverse !important
+// // /* For small devices */
+@media only screen and (max-width: 768px)
+    .section-header
+        font-size: 1.3rem !important
+    header
+        .header-content
+            flex-direction: column
+            .logo
+                padding: 10px 0 5px
+                font-size: 1.5rem !important
+            nav
+                // width: 80%
+                margin: 0 auto
+            a
+                padding: 0 10px !important
+                font-size: 0.8rem !important
+                height: 50px !important
+            .drop-down
+                flex-direction: column !important
+    main
+        .welcome
+            .info
+                h1
+                    font-size: 1.5rem !important
+                p
+                    font-size: 1rem !important
+                    width: 95%
+        .events
+            .form
+                padding: 30px 10px !important
+                border-radius: 0 !important
+                flex-direction: column
+                gap: 20px
+                input
+                    border-radius: 50px !important
+                input[type="submit"]
+                    width: 50%
+                    margin: 0 auto
+                    padding: 10px 20px !important
+        .pricing
+            .col-content
+                margin-right: 0 !important
+        .discount
+            .col-content
+                width: 100% !important
+                input,
+                textarea
+                    width: 90% !important
